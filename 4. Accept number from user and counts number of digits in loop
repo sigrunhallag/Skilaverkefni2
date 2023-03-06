@@ -1,0 +1,12 @@
+void main (){
+//Accept number from user and counts number of digits in loop
+  int digit = 0;
+  print('Please insert number: ');
+  String inputNum = stdin.readLineSync();
+  int = int.parse(inputNum);
+  while(num > 0){
+    num = (num / 10);
+    digit = digit + 1;
+  }
+ print('Number of digits: ' + $digit);
+}
