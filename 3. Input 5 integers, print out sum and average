@@ -1,0 +1,14 @@
+void main (){
+//Input 5 integers, print out sum and average
+  int numLength = 5;
+  double sum = 0;
+
+  for(int i = 0; i < numLength; i++){
+    print('Please insert number: ');
+    int input = int.parse(stdin.readLineSync(encoding: Encoding.getByName("UTF-8")));
+    sum = sum + input;
+  }
+  double average = (sum / numLength);
+  print('Total sum: $sum');
+  print('Average of numbers: $average');
+  }
